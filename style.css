@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f0f7;
+    color: #332a38;
+}
+
+header {
+    background-color: #287c73;
+    color: white;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    max-height: 230px;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 0;
+    padding: 18px;
+    font-size: 30px;
+    font-family: 'Arial Black', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    background-color: #aee3df;
+}
+
+nav a {
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial Black', sans-serif;
+}
+
+nav a:hover {
+    background-color: #16af98;
+}
+
+nav a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+main {
+    /* Conteúdo principal tumblr obs: modificar a imagem e textos*/
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #e4d9e8;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #2200220d;
+}
+
+main h2 {
+    margin-top: 0;
+    color: #0da3b0;
+}
+
+main p {
+    margin: 12px 0;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #3fd8e5;
+    color: white;
+    padding: 10px 18px;
+    margin: 6px 8px 0 0;
+    border-radius: 7px;
+    text-decoration: none;
+    position: relative;
+}
+
+.botao:hover {
+    background-color: #0c99ad;
+}
+
+/* Rodapé*/
+footer {
+    margin-top: auto;
+    padding: 16px;
+    background-color: #0f2993;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
